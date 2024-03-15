@@ -5,6 +5,14 @@
 
 # 이자 = 원금 * 이율 * 기간
 # 원리금 = 원금 (1 + (이율*시간))
+
+# 원금(principal)
+# 이율(rate)
+# 기간(time)
+# 이자(interest)
+
+# 이자 = I = p * r * t
+# 원리금 = M = p * (1 + r * t)
 def interest():
     deposit = int(10000000)
     deposit = deposit + (deposit * 0.03875 * 5)
